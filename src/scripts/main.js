@@ -34,6 +34,7 @@ if (thumbs && largeImg) {
     largeImg.src = link.href;
     // додатково оновлюємо 'alt' для доступності,
     // використовуючи заголовок посилання
+
     largeImg.alt = link.title;
   });
 }
